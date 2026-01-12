@@ -8,7 +8,7 @@ You are an expert personality analyst and storyteller.
 
 Below is a developer profile summary.
 Your task is to infer personality traits from observable behavior
-and match the developer to ONE fictional character
+and match the developer to ONE fictional character    
 from a TV series or movie.
 
 Profile Summary:
