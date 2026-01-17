@@ -3,7 +3,7 @@ import type { Request, Response } from "express";
 export const getUserProfileAndRepos = async (req: Request, res: Response) => {
   console.log("user is not reaching", req.params.username)
   try {
-    const { username } = req.params;
+    const { username } = req.params;  
     const headers = {
       Authorization: `Bearer ${process.env.GITHUB_API}`,
     };
