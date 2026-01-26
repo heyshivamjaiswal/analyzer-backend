@@ -11,7 +11,7 @@ export async function runGroq(prompt: string): Promise<string> {
       {
         role: "user",
         content: prompt,
-      },
+      },   
     ],
   });
 
