@@ -17,7 +17,7 @@ Profile Summary:
 - Following: ${profile.following}
 - Bio: ${profile.bio || "None"}
 - Total Repositories: ${repoCount}
-- Programming Languages Used: ${uniqueLangs.join(", ") || "Not specified"}
+- Programming Languages Used: ${uniqueLangs.join(", ") || "Not specified"}   
 
 Instructions:
 1. Identify 3-4 dominant personality traits based strictly on the information above.
