@@ -11,7 +11,7 @@ export const getUserProfileAndRepos = async (req: Request, res: Response) => {
     const userRes = await fetch(`https://api.github.com/users/${username}`, {
       headers,  
     });
-   console.log("Display users",userRes)
+   console.log("Display users",userRes)    
     if (!userRes.ok) {
       res.status(userRes.status).json({ message: "User not found" });
       return;
